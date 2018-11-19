@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5452EC5817974FE1C55DEC91 /* Pods_MicheMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1E444DC83D969ACCA4884B /* Pods_MicheMap.framework */; };
+		F500F155219E877300234E66 /* MicheData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F500F154219E877300234E66 /* MicheData.swift */; };
+		F5593122219EC84F0028CC5A /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5593121219EC84F0028CC5A /* TempViewController.swift */; };
+		F56C4685219EBB5100E5AB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56C4684219EBB5100E5AB9C /* Assets.xcassets */; };
+		F59DDD9A219E59E600BD36A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DDD99219E59E600BD36A8 /* AppDelegate.swift */; };
+		F59DDD9C219E59E600BD36A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DDD9B219E59E600BD36A8 /* ViewController.swift */; };
+		F59DDD9F219E59E600BD36A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59DDD9D219E59E600BD36A8 /* Main.storyboard */; };
+		F59DDDA4219E59E700BD36A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59DDDA2219E59E700BD36A8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		694DF5E48067C4FF27B909A2 /* Pods-MicheMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicheMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-MicheMap/Pods-MicheMap.release.xcconfig"; sourceTree = "<group>"; };
+		D2DC81B9CDE40AD4D2D606E7 /* Pods-MicheMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicheMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MicheMap/Pods-MicheMap.debug.xcconfig"; sourceTree = "<group>"; };
+		DB1E444DC83D969ACCA4884B /* Pods_MicheMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicheMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F500F154219E877300234E66 /* MicheData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicheData.swift; sourceTree = "<group>"; };
+		F5593121219EC84F0028CC5A /* TempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
+		F56C4684219EBB5100E5AB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F59DDD96219E59E600BD36A8 /* MicheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59DDD99219E59E600BD36A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F59DDD9B219E59E600BD36A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F59DDD9E219E59E600BD36A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F59DDDA3219E59E700BD36A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F59DDDA5219E59E700BD36A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F59DDD93219E59E600BD36A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5452EC5817974FE1C55DEC91 /* Pods_MicheMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D3FFCF599DD81D879D7CC43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2DC81B9CDE40AD4D2D606E7 /* Pods-MicheMap.debug.xcconfig */,
+				694DF5E48067C4FF27B909A2 /* Pods-MicheMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78C477977D7AF05984302528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1E444DC83D969ACCA4884B /* Pods_MicheMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F59DDD8D219E59E500BD36A8 = {
+			isa = PBXGroup;
+			children = (
+				F59DDD98219E59E600BD36A8 /* MicheMap */,
+				F59DDD97219E59E600BD36A8 /* Products */,
+				2D3FFCF599DD81D879D7CC43 /* Pods */,
+				78C477977D7AF05984302528 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F59DDD97219E59E600BD36A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F59DDD96219E59E600BD36A8 /* MicheMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F59DDD98219E59E600BD36A8 /* MicheMap */ = {
+			isa = PBXGroup;
+			children = (
+				F59DDD99219E59E600BD36A8 /* AppDelegate.swift */,
+				F59DDD9B219E59E600BD36A8 /* ViewController.swift */,
+				F5593121219EC84F0028CC5A /* TempViewController.swift */,
+				F56C4684219EBB5100E5AB9C /* Assets.xcassets */,
+				F500F154219E877300234E66 /* MicheData.swift */,
+				F59DDD9D219E59E600BD36A8 /* Main.storyboard */,
+				F59DDDA2219E59E700BD36A8 /* LaunchScreen.storyboard */,
+				F59DDDA5219E59E700BD36A8 /* Info.plist */,
+			);
+			path = MicheMap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F59DDD95219E59E600BD36A8 /* MicheMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59DDDA8219E59E700BD36A8 /* Build configuration list for PBXNativeTarget "MicheMap" */;
+			buildPhases = (
+				6DD74EFE40982E51485E9103 /* [CP] Check Pods Manifest.lock */,
+				F59DDD92219E59E600BD36A8 /* Sources */,
+				F59DDD93219E59E600BD36A8 /* Frameworks */,
+				F59DDD94219E59E600BD36A8 /* Resources */,
+				881585909E3FCEF302D65EC8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicheMap;
+			productName = MicheMap;
+			productReference = F59DDD96219E59E600BD36A8 /* MicheMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F59DDD8E219E59E500BD36A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Kira;
+				TargetAttributes = {
+					F59DDD95219E59E600BD36A8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F59DDD91219E59E500BD36A8 /* Build configuration list for PBXProject "MicheMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F59DDD8D219E59E500BD36A8;
+			productRefGroup = F59DDD97219E59E600BD36A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F59DDD95219E59E600BD36A8 /* MicheMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F59DDD94219E59E600BD36A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59DDDA4219E59E700BD36A8 /* LaunchScreen.storyboard in Resources */,
+				F56C4685219EBB5100E5AB9C /* Assets.xcassets in Resources */,
+				F59DDD9F219E59E600BD36A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6DD74EFE40982E51485E9103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicheMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881585909E3FCEF302D65EC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MicheMap/Pods-MicheMap-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MicheMap/Pods-MicheMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F59DDD92219E59E600BD36A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5593122219EC84F0028CC5A /* TempViewController.swift in Sources */,
+				F59DDD9C219E59E600BD36A8 /* ViewController.swift in Sources */,
+				F500F155219E877300234E66 /* MicheData.swift in Sources */,
+				F59DDD9A219E59E600BD36A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F59DDD9D219E59E600BD36A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59DDD9E219E59E600BD36A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F59DDDA2219E59E700BD36A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59DDDA3219E59E700BD36A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F59DDDA6219E59E700BD36A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F59DDDA7219E59E700BD36A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F59DDDA9219E59E700BD36A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2DC81B9CDE40AD4D2D606E7 /* Pods-MicheMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
+				INFOPLIST_FILE = MicheMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.kira1021.MicheMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F59DDDAA219E59E700BD36A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694DF5E48067C4FF27B909A2 /* Pods-MicheMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
+				INFOPLIST_FILE = MicheMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.kira1021.MicheMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F59DDD91219E59E500BD36A8 /* Build configuration list for PBXProject "MicheMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59DDDA6219E59E700BD36A8 /* Debug */,
+				F59DDDA7219E59E700BD36A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59DDDA8219E59E700BD36A8 /* Build configuration list for PBXNativeTarget "MicheMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59DDDA9219E59E700BD36A8 /* Debug */,
+				F59DDDAA219E59E700BD36A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F59DDD8E219E59E500BD36A8 /* Project object */;
+}
